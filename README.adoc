@@ -1,6 +1,7 @@
 = Jeu _Rogue-Like_
 
-NOM : _NOM, Prénom, no_étudiant_
+_NOM1, Prénom1, no_étudiant1_
+_NOM2, Prénom2, no_étudiant2_
 
 L'objet de ce mini-projet est de développer un jeu d'exploration de donjon de type https://fr.wikipedia.org/wiki/Rogue-like[Rogue-like].
 Le thème que vous utiliserez pour ce projet est libre.
@@ -11,8 +12,10 @@ Vous devrez cependant respecter les contraintes fonctionnelles et techniques men
 Vous respecterez les contraintes suivantes:
 
 * Ce mini-projet est à réaliser en Java par groupe de 2 étudiants.
+  - les 2 étudiants doivent coopérer sur un même git. Un des deux étudiants devra permettre à l'autre d'utiliser son git.
 * Il devra comporter une documentation dans ce fichier.
-* La documentation devra décrire l'usage de l'application (_manuel utilisateur_) ainsi que la conception du jeu (_manuel technique_).
+  - La documentation devra décrire l'usage de l'application (_manuel utilisateur_) ainsi que la conception du jeu (_manuel technique_).
+  - La documentation doit utiliser le 
 * Vous utiliserez `git` en effectuant des commits réguliers comportant des messages informatifs.
 * Le _build_ sera assuré par Maven et plus précisément Maven wrapper (déjà intégré dans le projet).
 Aucune manipulation en dehors de Maven ne devra être nécessaire.
