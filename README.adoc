@@ -1,7 +1,10 @@
 = Jeu _Rogue-Like_
 
 _NOM1, Prénom1, no_étudiant1_
+
 _NOM2, Prénom2, no_étudiant2_
+
+_GIT url_ 
 
 L'objet de ce mini-projet est de développer un jeu d'exploration de donjon de type https://fr.wikipedia.org/wiki/Rogue-like[Rogue-like].
 Le thème que vous utiliserez pour ce projet est libre.
@@ -15,7 +18,7 @@ Vous respecterez les contraintes suivantes:
   - les 2 étudiants doivent coopérer sur un même git. Un des deux étudiants devra permettre à l'autre d'utiliser son git.
 * Il devra comporter une documentation dans ce fichier.
   - La documentation devra décrire l'usage de l'application (_manuel utilisateur_) ainsi que la conception du jeu (_manuel technique_).
-  - La documentation doit utiliser le 
+  - La documentation doit être un fichier .md ou .adoc et accessible depuis le `git`
 * Vous utiliserez `git` en effectuant des commits réguliers comportant des messages informatifs.
 * Le _build_ sera assuré par Maven et plus précisément Maven wrapper (déjà intégré dans le projet).
 Aucune manipulation en dehors de Maven ne devra être nécessaire.
@@ -44,6 +47,8 @@ Le projet devra donc les respecter.
 * Une interface spécifique pourra être proposée pour des situations particulières (_création du personnage, sélection d'un sort, discussion, …_).
 * L'état de la partie devra pouvoir être sauvegardée et rechargée à tout moment.
 
+**Pour SL**: Afin qu'ils réfléchissent aux meilleurs collections, on peut leur demander un mode "play", ou l'on peut reculer et avancer dans le jeu. 
+
 == Références
 * Article Wikipedia https://fr.wikipedia.org/wiki/Rogue-like[Rogue-like]
 * Tutoriels :
@@ -54,7 +59,8 @@ http://fusesource.github.io/jansi/[JAnsi] (couleur dans un terminal),
 https://github.com/jline/jline3[JLine] (gestion des saisies)
 
 == Manuel utilisateur
-> À compléter :
+
+À compléter :
 > Dans quel univers se déroule le jeu ?
 > Quel est le but du jeu ?
 > Quelles sont les caractéristiques du PJ ?
